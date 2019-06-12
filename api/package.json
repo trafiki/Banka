@@ -1,0 +1,42 @@
+{
+  "name": "banka-app",
+  "version": "1.0.0",
+  "description": "Banka is a light-weight core banking application that powers banking operations like account creation, customer deposit and withdrawals.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trafiki/Banka.git"
+  },
+  "keywords": [
+    "banking",
+    "app",
+    "banka",
+    "andela",
+    "practice",
+    "developer",
+    "javascript",
+    "es6"
+  ],
+  "author": "Akerele Babatunde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trafiki/Banka/issues"
+  },
+  "homepage": "https://github.com/trafiki/Banka#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-cli": "^6.26.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0"
+  }
+}
